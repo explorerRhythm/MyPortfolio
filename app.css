@@ -1,8 +1,13 @@
+/* *{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+} */
 body{
     margin: 0;
+    background-color: #3E2F2F;
 }
 .introduction{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:  Quattrocento ,Courier, monospace;
     font-weight: bold;
     margin: 3rem auto;
     padding: 0 2.5rem;
@@ -10,9 +15,14 @@ body{
     width: 50em;
     border-radius: 1rem;
     line-height: 2.2rem;
+    
+    
 }
 .introduction>div{
-    color: blue;
+    color: #F4EEE0;
+    background-color: #5A4742;
+    padding: 1.4rem;
+    border-radius: 2rem;
 }
 .images>div>img{
     width: 30%;
@@ -28,9 +38,12 @@ body{
     margin: 1.2rem auto;
     width: fit-content;
     font-size: 1.3rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Roboto Slab", Courier, monospace;
     /* border: 1px solid; */
     padding: 1rem;
+    color: #A89F91;;
+    font-weight: 400;
+    word-spacing: 0.8rem;
     
 }
 main{
@@ -45,34 +58,65 @@ main{
 
 main>article>div{
     font-size: 1.2rem;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
-
+    color: #A89F91;
+    line-height: 2rem;
+    font-family: "Roboto Slab", Courier, monospace;
 }
+    
 main>article>div>h3{
     font-size: 3rem;
     font-weight: 900;
+    color:#A97474;
 }
 .business{
     margin: 10rem auto;
     text-align: center;
     font-size: 2rem;
     padding: 5rem 0;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Roboto Slab";
     font-weight: bolder;
     width: fit-content;
+    color: #A89F91;
+    
 }
 button{
-    color: blueviolet;
-    background-color: aliceblue;
+    color: #F4EEE0;
+    background-color:#C97C5D;
     width: 10em;
     padding: 0.4rem 0;
     border-radius: 5rem;
 }
 button:hover{
-    background-color: cyan;
-    color: rgb(143, 107, 51);
+    background-color: rgba(47, 151, 151, 0.201);
+    color: rgba(129, 146, 156, 0.327);
 }
 ::selection{
     background-color: grey;
+}
+#spacing{
+    margin-top: 2em;
+    text-align: center;
+    /* border: 1px solid rgb(187, 17, 17); */
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    /* position: relative; */
+    /* animation: animation: moveFull 4s ease-in-out infinite; */
+    transition: margin-left 3s, background-color 2s, border-radius 1s ease-in;
+    
+    color: #C97C5D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#spacing:hover{
+    background-color: antiquewhite;
+    margin-left: 50vh;
+    border-radius: 50%;
+    
+
+   
 }

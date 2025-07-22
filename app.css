@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+.introduction{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 3rem auto;
+    padding: 0 2.5rem;
+    /* border: 1px solid black; */
+    width: 50em;
+    border-radius: 1rem;
+    line-height: 2.2rem;
+}
+.introduction>div{
+    color: blue;
+}
+.images>div>img{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: block;
+}
+.images>div>.nomarginbottom{
+    margin-bottom: 0;
+}
+.images>div>p{
+    /* text-align: center; */
+    margin: 1.2rem auto;
+    width: fit-content;
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 1px solid; */
+    padding: 1rem;
+    
+}
+main{
+    margin: 2rem auto;
+    border: 1px solid;
+    padding: 5rem;
+    padding-top: 2.5rem;
+    width: 40em;
+    border-radius: 2rem;
+    /* border-radius: 5%; */
+}
+
+main>article>div{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+
+}
+main>article>div>h3{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.business{
+    margin: 10rem auto;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5rem 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    width: fit-content;
+}
+button{
+    color: blueviolet;
+    background-color: aliceblue;
+    width: 10em;
+    padding: 0.4rem 0;
+    border-radius: 5rem;
+}
+button:hover{
+    background-color: cyan;
+    color: rgb(143, 107, 51);
+}
+::selection{
+    background-color: grey;
+}
